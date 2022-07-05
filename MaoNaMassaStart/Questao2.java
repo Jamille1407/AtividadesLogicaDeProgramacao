@@ -1,0 +1,46 @@
+package com.company.MaoNaMassaStart;
+
+import java.util.Scanner;
+
+public class Questao2 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Digite o código da discagem telefônica do destino: ");
+        int discagemTeleFonica = scan.nextInt();
+
+        switch (discagemTeleFonica){
+
+            case 61:
+                System.out.println("Brasilia");
+                break;
+            case 71:
+                System.out.println("Salvador");
+                break;
+            case 11:
+                System.out.println("São Paulo");
+                break;
+            case 21:
+                System.out.println("Rio De Janeiro");
+                break;
+            case 32:
+                System.out.println("Juiz de fora");
+                break;
+            case 19:
+                System.out.println("Campinas");
+                break;
+            case 27:
+                System.out.println("Vitoria");
+                break;
+            case 31:
+                System.out.println("Belo Horizonte");
+                break;
+            default:
+                System.out.println("Códifo de discagem telefônica não existe, digite novamente");
+
+
+
+        }
+
+    }
+}
